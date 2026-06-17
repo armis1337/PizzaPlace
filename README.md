@@ -1,8 +1,16 @@
+
+
 # PizzaPlace
 
 A full-stack portfolio demo: a multi-role restaurant ordering system built with **ASP.NET Core 10**, **EF Core + SQLite**, **SignalR**, **JWT auth**, and a **React + TypeScript** frontend.
 
 **The story it tells:** A guest orders a pizza. The order appears on the chef's screen *live* — no refresh. The chef prepares it; ingredient stock ticks down. The instant the chef marks it ready, it pops onto the delivery board *live*. Delivery claims it, marks it delivered. The supervisor watches every transition in real time and can restock inventory (with a simulated delay). Real-time, role-secured, full lifecycle.
+
+## Demo
+
+[![PizzaPlace demo video](https://img.youtube.com/vi/MakP8rLzrT4/maxresdefault.jpg)](https://youtu.be/MakP8rLzrT4)
+
+*Full order lifecycle across all four roles — guest orders, kitchen and delivery update live, supervisor handles a stock shortage.*
 
 > **Everything simulated:** payment is instant (€ total returned in the response), restocking completes after a ~5-second delay.
 

@@ -4,7 +4,7 @@ A full-stack portfolio demo: a multi-role restaurant ordering system built with 
 
 **The story it tells:** A guest orders a pizza. The order appears on the chef's screen *live* — no refresh. The chef prepares it; ingredient stock ticks down. The instant the chef marks it ready, it pops onto the delivery board *live*. Delivery claims it, marks it delivered. The supervisor watches every transition in real time and can restock inventory (with a simulated delay). Real-time, role-secured, full lifecycle.
 
-> **Everything simulated:** payment is instant (€ total returned in the response), restocking completes after a 15-second delay.
+> **Everything simulated:** payment is instant (€ total returned in the response), restocking completes after a 5-second delay.
 
 ---
 
